@@ -1,0 +1,11 @@
+{
+  "name": "hashbets",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node api/src/index.js",
+    "dev": "node --watch api/src/index.js",
+    "smoke": "node api/src/smoke-test.js"
+  }
+}

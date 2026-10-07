@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HashBets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/qrcode.js"></script>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <p class="eyebrow">Bitcoin block-hash bets · LN + Ark</p>
+        <h1>HashBets</h1>
+        <div id="chain" class="chain" aria-label="Upcoming blocks"></div>
+        <p class="lede">
+          Pick the last hex digit of a future block hash. Stakes are real sats over
+          Lightning or Ark. At cutoff you sign 17 payout-class settlements; Barkd pays
+          only the class that matches the block.
+        </p>
+        <div class="meta" id="meta"></div>
+      </header>
+
+      <div id="error" class="banner error hidden"></div>
+      <main id="app"></main>
+
+      <footer class="foot">
+        Custodial PoC · pot redistributed per block · Lightning &amp; Ark via Barkd
+      </footer>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
