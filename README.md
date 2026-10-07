@@ -1,5 +1,26 @@
 # HashBets
 
+# Bitcoin Block Hash Betting PoC
+*Developed during **btcpp.dev Berlin Edition (October 3, 2026)***
+
+📌 **Hackathon Context:**
+- **Initial commit** reflects the project state at the end of the hackathon that was presented by our team (**@HazeMero** and **@FrederickDuxer**).
+- This README was later extended with additional details and screenshots for clarity (see folder screenshots).
+
+⚠️ **Note:**
+This is a **proof-of-concept (PoC)** created during the hackathon. Future development is **not guaranteed**, and the code is provided **as-is** for documentation purposes.
+
+---
+
+
+> **Disclaimer:** This is **not production-ready** and serves purely as a conceptual demonstration.
+
+---
+
+![Start page](screenshots/1_start_page.png)
+
+## Concept
+
 Bet on the **last hex digit** (`0`–`f`) of a future Bitcoin block hash. Stakes and payouts are real sats through [Barkd](https://second.tech/docs/barkd) (Lightning and Ark).
 
 ## Settlement
